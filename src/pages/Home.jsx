@@ -135,7 +135,7 @@ export const Home = () => {
 									onClick={() =>
 										dispatch({
 											type: "add_favorite",
-											payload: planet.name
+											payload: person.name
 										})
 									}
 								>
